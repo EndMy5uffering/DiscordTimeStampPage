@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="icon" type="image/jpg" href="/assets/icon">
+    <script src="/js/convertTime.js"></script>
+    <title>DTS</title>
+</head>
+<body>
+    <div class="timeSettings">
+        <div class="timeInput">
+            <input class="numberInput" type="number" id="daySelector" value="1" max="31" min="0">
+            <select class="selector" id="monthSelector">
+                <option value="Jan">Jan</option>
+                <option value="Feb">Feb</option>
+                <option value="Mar">Mar</option>
+                <option value="Apr">Apr</option>
+                <option value="May">May</option>
+                <option value="Jun">Jun</option>
+                <option value="Jul">Jul</option>
+                <option value="Aug">Aug</option>
+                <option value="Sept">Sept</option>
+                <option value="Oct">Oct</option>
+                <option value="Nov">Nov</option>
+                <option value="Dec">Dec</option>
+            </select>
+            <input class="numberInput" type="number" id="yearSelector" value="2021" min="1970">
+            <div class="timeSelection">
+                <input class="numberInput" type="number" id="hoursSelector" value="00" max="24" min="0">:
+                <input class="numberInput" type="number" id="minSelector" value="00" max="59" min="0">:
+                <input class="numberInput" type="number" id="secSelector" value="00" max="59" min="0">
+                <select class="selector" id="timeZoneSelector">
+                    <option value="GMT">GMT Greenwich Mean Time GMT</option>
+                    <option value="UTC">UTC Universal Coordinated Time GMT</option>
+                    <option value="ECT">ECT European Central Time GMT+1:00</option>
+                    <option value="EET">EET Eastern European Time GMT+2:00</option>
+                    <option value="ART">ART (Arabic) Egypt Standard Time GMT+2:00</option>
+                    <option value="EAT">EAT Eastern African Time GMT+3:00</option>
+                    <option value="MET">MET Middle East Time GMT+3:30</option>
+                    <option value="NET">NET Near East Time GMT+4:00</option>
+                    <option value="PLT">PLT Pakistan Lahore Time GMT+5:00</option>
+                    <option value="IST">IST India Standard Time GMT+5:30</option>
+                    <option value="BST">BST Bangladesh Standard Time GMT+6:00</option>
+                    <option value="VST">VST Vietnam Standard Time GMT+7:00</option>
+                    <option value="CTT">CTT China Taiwan Time GMT+8:00</option>
+                    <option value="JST">JST Japan Standard Time GMT+9:00</option>
+                    <option value="ACT">ACT Australia Central Time GMT+9:30</option>
+                    <option value="AET">AET Australia Eastern Time GMT+10:00</option>
+                    <option value="SST">SST Solomon Standard Time GMT+11:00</option>
+                    <option value="NST">NST New Zealand Standard Time GMT+12:00</option>
+                    <option value="MIT">MIT Midway Islands Time GMT-11:00</option>
+                    <option value="HST">HST Hawaii Standard Time GMT-10:00</option>
+                    <option value="AST">AST Alaska Standard Time GMT-9:00</option>
+                    <option value="PST">PST Pacific Standard Time GMT-8:00</option>
+                    <option value="PNT">PNT Phoenix Standard Time GMT-7:00</option>
+                    <option value="MST">MST Mountain Standard Time GMT-7:00</option>
+                    <option value="CST">CST Central Standard Time GMT-6:00</option>
+                    <option value="EST">EST Eastern Standard Time GMT-5:00</option>
+                    <option value="IET">IET Indiana Eastern Standard Time GMT-5:00</option>
+                    <option value="PRT">PRT Puerto Rico and US Virgin Islands Time GMT-4:00</option>
+                    <option value="CNT">CNT Canada Newfoundland Time GMT-3:30</option>
+                    <option value="AGT">AGT Argentina Standard Time GMT-3:00</option>
+                    <option value="BET">BET Brazil Eastern Time GMT-3:00</option>
+                    <option value="CAT">CAT Central African Time GMT-1:00</option>
+                </select>
+            </div>
+        </div>
+        <div class="TimeOutput">
+            >output copy to clipboard<
+        </div>
+    </div>
+</body>
+</html>
